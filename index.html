@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ePustakalay</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>ePustakalay</h1>
+    </header>
+    <main>
+      <section id="search-books">
+        <h2>Search Books</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Enter book title or author"
+          />
+          <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+      </section>
+      <section id="add-book">
+        <h2>Add Book</h2>
+        <div class="input-group">
+          <input type="text" id="book-title" placeholder="Enter book title" />
+          <input type="text" id="author-name" placeholder="Enter author name" />
+          <button id="add-button">Add Book</button>
+        </div>
+      </section>
+      <section id="book-list">
+        <h2>Available Books</h2>
+        <ul id="books">
+          <!-- Book items will be dynamically added here -->
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
