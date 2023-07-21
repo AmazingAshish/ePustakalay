@@ -1,4 +1,4 @@
-                                                                      # ePustakalay
+# ePustakalay
 The Library Management website is designed to help users efficiently manage a library's collection of books. It is developed using HTML, CSS, and JavaScript to provide an interactive and user-friendly experience. The website includes the following functionalities:
 
 1. Search Books: Users can search for books in the library's collection by entering keywords, book titles, authors, or other relevant details. The website will display a list of matching books, making it easy for users to find the books they are looking for.
