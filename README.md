@@ -3,7 +3,7 @@
 
 ## Description
 
-The Library Management Website is a user-friendly web application developed using HTML, CSS, and JavaScript. It provides an efficient solution for managing a library's collection of books. Users can easily search for books, add new books to the inventory, view available books, and delete unwanted ones.
+ePustakalay is a user-friendly web application developed using HTML, CSS, and JavaScript. It provides an efficient solution for managing a library's collection of books. Users can easily search for books, add new books to the inventory, view available books, and delete unwanted ones.
 
 ## Demo
 
