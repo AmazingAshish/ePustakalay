@@ -89,7 +89,6 @@ input[type="text"] {
     background-color: #c0392b;
 }
 
-/* Add some animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
