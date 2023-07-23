@@ -1,4 +1,3 @@
-// Sample book data for demonstration purposes
 let books = [
     { title: "If You're So Smart, Why Aren't You Happy?", author: "Raj Raghunathan" },
     { title: "Make Your Bed", author: "Admiral William H. McRaven" },
@@ -22,7 +21,6 @@ const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 const bookList = document.getElementById('books');
 
-// Function to display the books
 function displayBooks(bookArray) {
     bookList.innerHTML = "";
     bookArray.forEach((book, index) => {
@@ -33,7 +31,6 @@ function displayBooks(bookArray) {
     });
 }
 
-// Function to add a new book
 function addBook() {
     const title = bookTitleInput.value.trim();
     const author = authorNameInput.value.trim();
@@ -46,13 +43,11 @@ function addBook() {
     }
 }
 
-// Function to delete a book
 function deleteBook(index) {
     books.splice(index, 1);
     displayBooks(books);
 }
 
-// Function to filter books based on search input
 function searchBooks() {
     const searchText = searchInput.value.toLowerCase();
     const filteredBooks = books.filter(book =>
@@ -62,9 +57,7 @@ function searchBooks() {
     displayBooks(filteredBooks);
 }
 
-// Event listeners
 addButton.addEventListener('click', addBook);
 searchButton.addEventListener('click', searchBooks);
 
-// Initial display of all books
 displayBooks(books);
