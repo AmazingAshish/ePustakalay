@@ -26,7 +26,7 @@ function displayBooks(bookArray) {
     bookArray.forEach((book, index) => {
         const listItem = document.createElement('li');
         listItem.innerHTML = `<strong>${book.title}</strong> by ${book.author} 
-            <button onclick="deleteBook(${index})"><i class="fas fa-trash-alt"></i></button>`;
+            <button onclick="deleteBook(${index})"><i class="fa-solid fa-trash fa-beat-fade"></i></button>`;
         bookList.appendChild(listItem);
     });
 }
