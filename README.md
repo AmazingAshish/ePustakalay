@@ -7,7 +7,7 @@ ePustakalay is a user-friendly web application developed using HTML, CSS, and Ja
 
 ## Demo
 
-You can see a live demo of Songify [here](https://amazingashish.github.io/ePustakalay/).
+You can see a live demo of ePustakalay [here](https://amazingashish.github.io/ePustakalay/).
 
 ## Features
 
